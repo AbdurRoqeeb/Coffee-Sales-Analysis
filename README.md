@@ -6,7 +6,7 @@ This project presents a complete Excel-based workflow for analyzing coffee sales
 
 This end-to-end project involved:
 
-1. **Data Extraction** – Imported raw sales data from multiple sources (e.g., CSV, Excel, or external systems).  
+1. **Data Extraction** – Filled blank columns by writing Excel formulas to pull data from other sheets within the workbook, ensuring all necessary fields were populated.  
 2. **Data Cleaning** – Removed duplicates, standardized formats, handled missing values, and ensured consistency across columns.  
 3. **Data Analysis** – Used pivot tables, formulas, and charts to uncover trends in revenue, product performance, and regional sales.  
 4. **Dashboard Creation** – Designed an interactive Excel dashboard summarizing key metrics for easy business decision-making.
@@ -14,48 +14,34 @@ This end-to-end project involved:
 ## 🛠 Tools & Techniques Used
 
 - Microsoft Excel  
-  - Power Query (for transformation and automation)  
   - Pivot Tables  
-  - Lookup & Logic Functions (VLOOKUP, IF, SUMIFS, etc.)  
+  - Lookup & Logic Functions (XLOOKUP, INDEX, MATCH IF, etc.)  
   - Dynamic Named Ranges  
   - Slicers & Data Validation  
-- Basic Charting (Bar, Line, Pie, etc.)  
+- Basic Charting (Bar, Line, etc.)  
 - Excel Dashboard Design Principles
 
 ## 📈 Key Insights
 
-- Top-selling coffee products and categories  
-- Monthly revenue trends  
-- Performance by region and sales rep  
-- Sales contribution by customer segments  
+- Coffee sales over time  
+- Performance by country
+- Top 5 customers 
 - Highlighted growth opportunities and underperforming areas
 
 ## 📷 Screenshots
 
-### 🔹 Data Cleaning Process
-![Data Cleaning](screenshots/data_cleaning.png)
-
-### 🔹 Sales Pivot Table
-![Pivot Table](screenshots/sales_pivot_table.png)
-
 ### 🔹 Final Dashboard
 ![Dashboard](screenshots/final_dashboard.png)
 
-> Make sure to include these screenshots in a `/screenshots` folder in your repository.
 
 ## 📂 Repo Structure
 
 ```
 📁 Coffee-Sales-Analysis/
 │
-├── raw_data.xlsx               # Original raw sales data
-├── cleaned_data.xlsx           # Cleaned and transformed dataset
-├── sales_dashboard.xlsx        # Final dashboard with analysis
-├── data_cleaning_steps.xlsx    # Documentation or breakdown of cleaning steps
-├── screenshots/                # Folder containing screenshots
-└── README.md                   # Project documentation
+├── raw_data.xlsx                 # Original raw data
+├── Coffee_Sales_Project.xlsx     # Cleaned and transformed dataset, Final dashboard with analysis
+├── Coffe_Sales_Dashboard.png     # Screenshot of dashboard
+├── Interactive_Dashboard.mp4     # Video demonstration of interaction
+└── README.md                     # Project documentation
 ```
-
-## ✅ Project Status
-
-✅ Completed and ready for demonstration, review, or integration into a business reporting workflow.
