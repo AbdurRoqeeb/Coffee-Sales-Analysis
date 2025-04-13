@@ -41,7 +41,7 @@ This end-to-end project involved:
 │
 ├── raw_data.xlsx                 # Original raw data
 ├── Coffee_Sales_Project.xlsx     # Cleaned and transformed dataset, Final dashboard with analysis
-├── Coffe_Sales_Dashboard.png     # Screenshot of dashboard
+├── Coffee_Sales_Dashboard.png     # Screenshot of dashboard
 ├── Interactive_Dashboard.mp4     # Video demonstration of interaction
 └── README.md                     # Project documentation
 ```
