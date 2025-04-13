@@ -31,7 +31,7 @@ This end-to-end project involved:
 ## 📷 Screenshots
 
 ### 🔹 Final Dashboard
-![Dashboard](screenshots/final_dashboard.png)
+![Dashboard](Coffe_Sales_Dashboard.png)
 
 
 ## 📂 Repo Structure
